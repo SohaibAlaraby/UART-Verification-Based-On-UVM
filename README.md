@@ -56,13 +56,15 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 - w_data signal is the write data at the TX and the r_data signal is the read data at the RX.<br />
 <img src="Img/waveform.png" width="1000"><br />
 
-
-
-
-
 ## FSM Of TX and RX & FIFO Behavior<br />
-- TX/n_reg is the current state of the TX and RX/n_reg is the same for RX and FSM starts when start bit 0 arrive.<br />
+- TX/n_reg is the current state of the TX and RX/n_reg is the same for RX and FSM starts when start bit 0 arrives.<br />
 - States are {start , Data Transfer/Receiving , Parity , End}.<br />
 - Also FIFO_RX is the fifo of the RX and the w_data is the data that received by the RX (when the receiver receives a bit the shift register will add it).<br />
 - in FIFO_RX/r_data is the read data in FIFO and it will extract the data from the fifo when a read signal arrives.<br />
 <img src="Img/FSM_And_FIFO.png" width="1000"><br />
+
+## Data Flow<br />
+- rx_data_out signal also represents a shift register to the received data (look how the data flow in the register).<br />
+
+<img src="Img/Dataflow.png" width="1000"><br />
+
