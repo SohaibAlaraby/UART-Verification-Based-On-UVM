@@ -76,6 +76,6 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 ## Report Summary <br />
 <img src="Img/UVM_Report_Summary.png" width="500"><br />
 ## Coverage Result <br />
-<img src="Img/Coverage.png" width="500"><br />
-<img src="Img/Coverage1.png" width="500"><br />
+<img src="Img/Coverage.png" width="1000"><br />
+<img src="Img/Coverage1.png" width="1000"><br />
 
