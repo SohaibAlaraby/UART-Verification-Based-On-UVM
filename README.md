@@ -60,5 +60,9 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 
 
 
-## Testbench Components And Objects That Registered In Factory
-<img src="Img/testbench_structure.png" width="1000">
+## FSM Of TX and RX & FIFO Behavior<br />
+- TX/n_reg is the current state of the TX and RX/n_reg is the same for RX and FSM starts when start bit 0 arrive.<br />
+- States are {start , Data Transfer/Receiving , Parity , End}.<br />
+- Also FIFO_RX is the fifo of the RX and the w_data is the data that received by the RX (when the receiver receives a bit the shift register will add it).<br />
+- in FIFO_RX/r_data is the read data in FIFO and it will extract the data from the fifo when a read signal arrives.<br />
+<img src="Img/FSM_And_FIFO.png" width="1000"><br />
