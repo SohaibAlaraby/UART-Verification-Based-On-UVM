@@ -8,7 +8,7 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 - Transmitter (TX): The component that sends data.<br />
 - Receiver (RX): The component that receives data.<br />
 - FIFO (Memory): The component that the data is stored in and extracted from .<br />
-- Baudrate generator (RX): The component that generate the ticks to transfer and receive bits.<br />
+- Baudrate generator: The component that generate the ticks to transfer and receive bits.<br />
 
 3- Data Format:<br />
 
