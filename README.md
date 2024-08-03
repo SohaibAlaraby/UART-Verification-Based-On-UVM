@@ -49,11 +49,12 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 ##  UVM Testbench
 ### UVM Testbench Structure<br />
 <img src="Img/UVM.png" width="500"><br />
-### UVM Testbench Topology & Factory Registrations
-<img src="Img/Testbench_Topology_And_Factory_registration.png" width="500">
+### UVM Testbench Topology & Factory Registrations<br />
+<img src="Img/Testbench_Topology_And_Factory_registration.png" width="500"><br />
 
-## Report summary 
-<img src="Img/final_report.png" width="1000">
+### Data Transmitting and receiving<br />
+- w_data signal is the write data at the TX and the r_data signal is the read data at the RX.<br />
+<img src="Img/waveform.png" width="1000"><br />
 
 
 
