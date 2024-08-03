@@ -1,6 +1,6 @@
 # UART-Verification-Based-On-UVM
 UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication protocol that is used for asynchronous serial communication. UART is commonly used for communication between microcontrollers and peripheral devices such as sensors, modems, and other microcontrollers. It is widely used because of its simplicity and effectiveness:
-## How UART Works:
+## UART Specs:
 1- Asynchronous Communication:<br /> 
 - UART is asynchronous, meaning it does not use a clock signal to synchronize the transmitter and receiver. Instead, it relies on the baud rate (the speed of data transmission) to maintain proper timing.<br />
 
