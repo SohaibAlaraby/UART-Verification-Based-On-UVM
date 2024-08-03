@@ -68,3 +68,14 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 
 <img src="Img/Dataflow.png" width="1000"><br />
 
+## Results of the testbench <br />
+- match is counting the success receiving and mismatch is the opposite.<br />
+
+<img src="Img/Report1.png" width="500"><br />
+
+## Report Summary <br />
+<img src="Img/UVM_Report_Summary.png" width="500"><br />
+## Coverage Result <br />
+<img src="Img/Coverage.png" width="500"><br />
+<img src="Img/Coverage1.png" width="500"><br />
+
