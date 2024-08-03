@@ -41,15 +41,15 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 - Full-Duplex Communication: UART can transmit and receive data simultaneously using separate lines for TX and RX.<br />
 
 ## Applications of UART:
-- Microcontroller Communication: Used to connect microcontrollers to sensors, modules, and other microcontrollers.
-- Serial Ports: Commonly found in computers for serial communication.
-- Modems: Used in modems for data communication over telephone lines.
-- Embedded Systems: Widely used in embedded systems for serial communication.
+- Microcontroller Communication: Used to connect microcontrollers to sensors, modules, and other microcontrollers.<br />
+- Serial Ports: Commonly found in computers for serial communication.<br />
+- Modems: Used in modems for data communication over telephone lines.<br />
+- Embedded Systems: Widely used in embedded systems for serial communication.<br />
   
 ##  UVM Testbench
-### UVM Testbench Structure
-<img src="Img/UVM.png" width="500">
-### UVM Testbench Topology and Factory registrations
+### UVM Testbench Structure<br />
+<img src="Img/UVM.png" width="500"><br />
+### UVM Testbench Topology & Factory Registrations
 <img src="Img/Testbench_Topology_And_Factory_registration.png" width="500">
 
 ## Report summary 
