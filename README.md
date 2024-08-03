@@ -46,8 +46,9 @@ UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication p
 - Modems: Used in modems for data communication over telephone lines.
 - Embedded Systems: Widely used in embedded systems for serial communication.
   
-##  UVM Testbench Structure
-<img src="Img/uvm_mem_model_block_diagram (1).png" width="500">
+##  UVM Testbench
+### UVM Testbench Topology and Factory registrations
+<img src="Img/Testbench_Topology_And_Factory_registration.png" width="500">
 
 ## Report summary 
 <img src="Img/final_report.png" width="1000">
